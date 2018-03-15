@@ -1,3 +1,21 @@
+# Screencast Metadata
+
+## Screencast Title
+
+Getting Started with TensorFlow on Android
+
+## Screencast Description
+
+See how to make use of the TensorFlow Lite library to perform image classification on photos taken with your device camera.
+
+## Language, Editor and Platform versions used in this screencast:
+
+- **Language:** Kotlin 1.2
+- **Platform:** Android 5.0
+- **Editor**: Android Studio 3
+
+
+
 Discuss machine learning and applications. 
 
 Classification and regression.
