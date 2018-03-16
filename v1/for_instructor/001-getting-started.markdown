@@ -46,15 +46,13 @@ We'll use TensorFlow Lite in this screencast to perform image classification in 
 
 First make sure we have the Android NDK is installed, since it's needed to work with TensorFlow Lite.
 
-We can download a pre-trained model for image classification from the TensorFlow site. The model we'll use is called MobileNet and consists of 1001 different classifications of images. The classifications are called labels in machine learning.
+We have a starter project that let's you pick a photo from your photo app and show it in an image view.
 
-We have an starter project that let's you pick a photo from your photo app and show it in an image view.
-
-We can build and run the starter project on an Android emulator. We'll have to run the final project on an Android device in order to use TensorFlow Lite.
+We can build and run the starter project on a device, which here we're mirroring using a chrome browser plugin. We have to run the final project on an Android device in order to use TensorFlow Lite.
 
 The starter project has the TensorFlow Lite dependecy in the app build.gradle file. We leave the version as + in order to use the latest version of the library.
 
-The starter project also has the trained model file that we downloaded and its label text file in the app assets folder.
+The starter project also has a trained image classification model file and it's associated label text file in the app assets folder. We downloaded the trained model from the TensorFlow Lite GitHub page. The model we're using is called MobileNet and consists of 1001 different classifications of images. The classifications are called labels in machine learning.
 
 There are two Java classes in the project that we copied from the TensorFlow Lite demo app from Google.
 
@@ -123,7 +121,7 @@ Finally, we tell the handler to start the periodic classification after setting 
 backgroundHandler.post(periodicClassify)
 ```
 
-With everything in place, we can run the app on a device. Here we're seeing a screen recording from a device running the final app. We pick images from our photos and each gets classified successfully in the app. The classifier is not 100% accurate, so you'll likely see some misclassifications if you run the final app on your device.
+With everything in place, we can run the app on a device. We pick images from our photos and each gets classified in the app. The classifier is not 100% accurate, so you'll likely see some misclassifications if you run the final app on your device.
 
 At this point, you should have a good feel for how to use a trained TensorFlow Lite model in an app. We've covered loading a classifier into your app and using the classifier to make predictions.
 
