@@ -14,12 +14,13 @@ See how to make use of the TensorFlow Lite library to perform image classificati
 - **Platform:** Android 5.0
 - **Editor**: Android Studio 3
 
+Hey everybody! Joe here, and in this screencast we're going to see how to get started with TensorFlow, a machine learning library from Google. We'll focus on TensorFlow Lite, a version of TensorFlow optimized for use on mobile devices.
 
 Machine learning has seen a massive increase in interest and application in recent years, thanks in large measure to advances made in the the subfield called Deep Learning.
 
 [Slide 1 - Machine Learning]
 
-Machine learning at a basic level consists of a model that takes inputs and maps to outputs, based on some type of learning that can be done within the model Two of the main applications of machine learning are classification and regression. In classification, a machine learning model is trained to pick from a small number of discrete outputs for a given input. In regression, the model is trained to determine an output from a continuum of values. 
+Machine learning at a basic level consists of a model that takes inputs and maps to outputs, based on some type of learning that can be done within the model Two of the main applications of machine learning are classification and regression. In classification, a machine learning model is trained to pick from a small number of discrete outputs for a given input. In regression, the model is trained to determine an output from a continuum of values.
 
 [Slide 2 - Deep Learning]
 
